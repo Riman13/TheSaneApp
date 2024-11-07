@@ -10,9 +10,33 @@
 		0153BEB92CD90558001441A5 /* SaneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		17A55A462CD93AAC0027DD42 /* Exceptions for "SaneApp" folder in "SaneApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.swift,
+			);
+			target = 0153BEB82CD90558001441A5 /* SaneApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		17A55A472CD93AAC0027DD42 /* Exceptions for "SaneApp" folder in "Compile Sources" phase from "SaneApp" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 0153BEB52CD90558001441A5 /* Sources */;
+			membershipExceptions = (
+				.swift,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0153BEBB2CD90558001441A5 /* SaneApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				17A55A462CD93AAC0027DD42 /* Exceptions for "SaneApp" folder in "SaneApp" target */,
+				17A55A472CD93AAC0027DD42 /* Exceptions for "SaneApp" folder in "Compile Sources" phase from "SaneApp" target */,
+			);
 			path = SaneApp;
 			sourceTree = "<group>";
 		};
